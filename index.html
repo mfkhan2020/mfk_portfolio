@@ -3,25 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Home | Portfolio Website</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <link rel="shortcut icon" href="images/mfklogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
 </head>
-<body>
-    <div class="nav">
-        <ul> 
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar-dark cus-bg">
+            <a class="navbar-brand custom-logo" href="index.html">
+                <img src="images/mfklogo.png" alt="Logo" class="custom-img">
+            </a>
+            <ul class="navbar-nav custom-nav fw-bolder">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projects.html">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+            </ul>
+    </nav>
+
+    <div class="maincontainer">
+        <div class="mainpara maincus">
+            <h3>Welcome, I am Muhammad Faizan Khan</h3>
+            <h6>I am a student of Web and Mobile App Development Course and currently <br>
+                i have created some projects for my portfolio which have been showcase here.</h6>
+        </div>
+        <div class="maincus">
+            <img src="images/mainimg.jpg" class="mainimg" alt="">
+        </div>
     </div>
 
-    <div>
-        <h1>Welcome, I am Muhammad Faizan Khan</h1>
-        <h3>I am a student of Web and Mobile App Development Course and currently i have created some projects for my portfolio which have been showcase here.</h3>
-    </div>
-
-    <div class="main">
+    <!-- <div class="main">
         <div class="pro">
             <h2>Project No 1</h2>
             <iframe src="https://mfkhan2020.github.io/ChessGame/" frameborder="0"></iframe>
@@ -46,6 +67,16 @@
             <h2>Project No 1</h2>
             <iframe src="https://mfkhan2020.github.io/ChessGame/" frameborder="0"></iframe>
         </div>
-    </div>
+    </div> -->
+    <footer class="footerpara">
+        <h4>Social Links <i class="fa-solid fa-hashtag fa-sm"></i></h4>
+        <a href="https://www.facebook.com/mfkhan1989" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl social"></i></a>
+        <a href="https://www.instagram.com/mfkhan1989" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl social"></i></a>
+        <a href="https://wa.me/923422181810" target="_blank"><i class="fa-brands fa-square-whatsapp fa-2xl social"></i></a>
+        <a href="mailto:mfkhan2020@yahoo.com" target="_blank"><i class="fa-brands fa-yahoo fa-2xl social"></i></a>
+        <a href="https://github.com/mfkhan2020" target="_blank"><i class="fa-brands fa-square-github fa-2xl social"></i></a>
+        <a href="https://www.linkedin.com/in/mfkhan2020" target="_blank"><i class="fa-brands fa-linkedin fa-2xl social"></i></a>
+        <p>Design & Developed In 2024 by &copy; Muhammad Faizan Khan</p>
+    </footer>
 </body>
 </html>
