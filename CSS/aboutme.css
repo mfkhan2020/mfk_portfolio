@@ -25,13 +25,14 @@
 .custom-bar{
     color: red;
 }
+
+
 .mainpara{
-    text-align: center;
     color: #EFC88B;
     align-content: center;
 }
 .mainimg{
-    width: 700px;
+    width: 500px;
     border-radius: 25px;
 }
 .maincus{
@@ -40,13 +41,10 @@
 .maincontainer{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    
+    padding: 40px;
 }
 .footerpara{
     color: #F4E3B2;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     text-align: center;
     border-top: solid red;
@@ -61,4 +59,10 @@ div>h6{
 }
 .social:hover{
     color: #CF5C36;
+}
+.mainprog{
+    margin-top: 20px;
+}
+.mainp1{
+    text-align: justify;
 }
